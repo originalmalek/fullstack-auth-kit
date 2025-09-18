@@ -1,0 +1,18 @@
+# Root ignores
+
+# OS/IDE
+.DS_Store
+.idea/
+*.log
+
+# Frontend (Next.js / Node)
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env*
+
+# Backend (Python)
+backend/__pycache__/
+backend/venv/
+backend/.env
+

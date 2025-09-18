@@ -1,0 +1,20 @@
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments and local env
+venv/
+.venv/
+# If backend itself is a venv root
+bin/
+include/
+lib/
+pyvenv.cfg
+.env
+.env.*
+
+# OS/IDE noise
+.DS_Store
+*.log
